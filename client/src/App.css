@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #091921;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  display: flex;
+  /* background-image: url('bg3.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    background-blend-mode: screen; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #282c3462;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(97, 169, 245);
+  border-radius: 50px;
+  
+}
+::selection{
+background: rgb(0,123,255,0.3);
+}

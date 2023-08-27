@@ -1,0 +1,101 @@
+.bookDetails{
+    display: flex;
+    width: 100%;
+    /* height: 90vh; */
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    justify-content: space-around;
+    /* height: 75vh; */
+    width: 30%;
+    /* padding-top: 1rem; */
+    text-align: center;
+    margin: 0rem 0rem 1rem 2rem;
+    /* background-color: antiquewhite; */
+    align-items: center;
+}
+.bookDetails .data img{
+    object-fit: cover;
+    height: 100%;
+    width: 250px;
+}
+.bookReview{
+    white-space: pre-wrap;
+    display: flex;
+    /* flex-grow: 2; */
+    flex-direction: column;
+    /* margin: 2rem; */
+    word-spacing: 5px;
+    font-size: 1.2rem;
+    width: 60%;
+    /* max-height: 50vh; */
+    height: 70vh;
+    /* background-color: blue; */
+    /* overflow: auto; */
+    /* scroll-behavior: smooth; */
+    justify-content: flex-start;
+    text-align: justify;
+    align-items: center;
+}
+.default{
+    color: rgb(0, 187, 255);
+    text-decoration: none;
+}
+.default:hover{
+    color: rgb(170, 232, 241);
+    text-decoration: underline;
+}
+.bookReview div{
+    overflow-y: auto;
+    /* margin-top: 20px; */
+    overflow-x: hidden;
+    margin-top: 1rem;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.bookReview div p{
+    padding-right: 14px;
+}
+.saveBookButton{
+    background-color: transparent;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 5px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    border: 2px solid rgba(255, 255, 255, 0.581);
+}
+.saveBookButton:hover{
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.buttons{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 870px){   
+    .data{
+        justify-content: center;
+        margin: 0rem;
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+    .bookReview{
+        width: 90%;
+        height: auto;
+        margin: 0rem;
+        margin-bottom: 50px;
+    }
+}

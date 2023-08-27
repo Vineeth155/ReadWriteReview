@@ -1,0 +1,94 @@
+.addBook{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* height: 100vh; */
+}
+.addBook h1{
+    padding: 20px;
+    /* margin: 20px; */
+}
+.addBook .bookForm{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addBook .bookForm label{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.addBook .bookForm input{
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 5px;
+    background-color: transparent;
+    outline: none;
+    color: whitesmoke;
+    border: none;
+    font-size: 1.5rem;
+    border-bottom: 1px solid grey;
+}
+
+.addBook .bookForm input:focus{
+    border-bottom: 1px solid white;
+    outline: .5px solid rgb(1, 61, 105);
+    background-color: rgba(1, 23, 38, 0.491);
+}
+.addBook .bookForm textarea{
+    padding: 5px;
+    width: 90%;
+    height: 40vh;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 1rem;
+    border: 1px solid grey;
+}
+.addBook .bookForm textarea:focus{
+    border-bottom: 1px solid white;
+    outline: 1px solid rgb(221, 241, 255);
+    background-color: rgba(1, 28, 41, 0.879);
+}
+.submitButtons{
+    display: flex;
+    padding: 1rem;
+    /* width: 20%; */
+    align-items: center;
+    justify-content: space-between;
+}
+.submitButton{
+    margin: 0px 20px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 17px;
+    border: 2px solid rgba(255, 255, 255, 0.581);
+}
+.submitButton:hover{
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: 2px solid black;
+}

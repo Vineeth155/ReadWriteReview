@@ -1,0 +1,56 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+}
+.home h1{
+    font-size: 1.7rem;
+    cursor: default;
+}
+.home h1 span{
+    text-decoration: underline;
+    letter-spacing: 1.5px;
+}
+.booksContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.booksContainer div{
+    margin-top: 2rem;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.book img{
+    object-fit: cover;
+    height: 100%;
+    width: 190px;
+}
+.book h3{
+    padding-top: 5px;
+    text-align: center;
+}
+.book p{
+    font-size: 13px;
+}
+
+.linkTag{
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: auto;
+}
+.book:hover h3{
+    text-decoration: underline;
+}
